@@ -1,0 +1,5 @@
+# Competitor Grievance Signal Detector Dependencies
+# Core application runs entirely on the Python Standard Library.
+
+# Test suite dependencies
+pytest>=7.0.0

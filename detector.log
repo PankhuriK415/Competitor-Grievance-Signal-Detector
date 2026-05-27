@@ -1,0 +1,127 @@
+[2026-05-27 15:42:46] INFO [competitor_detector:detector.py:60] Typo detected: 'hackerranc' matched to competitor 'HackerRank' (alias: 'hackerrank', dist: 1)
+[2026-05-27 15:42:46] INFO [competitor_detector:detector.py:60] Typo detected: 'leven' matched to competitor 'Lever' (alias: 'lever', dist: 1)
+[2026-05-27 15:42:46] INFO [competitor_detector:fetcher.py:84] G2 reviews require premium API or browser automation. Ingesting from high-fidelity mock cache.
+[2026-05-27 15:42:46] ERROR [competitor_detector:fetcher.py:72] Failed to fetch live Reddit posts: Network Down.
+[2026-05-27 15:42:46] INFO [competitor_detector:fetcher.py:74] Falling back to cached Reddit mock data.
+[2026-05-27 15:42:46] INFO [competitor_detector:fetcher.py:69] Successfully fetched 1 live posts from Reddit.
+[2026-05-27 15:42:46] INFO [competitor_detector:fetcher.py:45] Live mode disabled. Loading Reddit mock data.
+[2026-05-27 15:42:46] INFO [competitor_detector:fetcher.py:89] Trustpilot reviews require premium API or browser automation. Ingesting from high-fidelity mock cache.
+[2026-05-27 15:42:46] INFO [competitor_detector:fetcher.py:22] Fetching URL: http://test.com (Attempt 1/2)
+[2026-05-27 15:42:46] WARNING [competitor_detector:fetcher.py:26] HTTP Error 429 on attempt 1: Too Many Requests
+[2026-05-27 15:42:46] INFO [competitor_detector:fetcher.py:37] Sleeping 0.01s before retry...
+[2026-05-27 15:42:46] INFO [competitor_detector:fetcher.py:22] Fetching URL: http://test.com (Attempt 2/2)
+[2026-05-27 15:42:46] INFO [competitor_detector:output.py:50] Saved 1 new signals to JSON file at: C:\Users\pihup\AppData\Local\Temp\tmpd6ddhr7t\signals.json (Total: 1)
+[2026-05-27 15:42:46] INFO [competitor_detector:output.py:50] Saved 0 new signals to JSON file at: C:\Users\pihup\AppData\Local\Temp\tmpd6ddhr7t\signals.json (Total: 1)
+[2026-05-27 15:42:46] INFO [competitor_detector:output.py:50] Saved 1 new signals to JSON file at: C:\Users\pihup\AppData\Local\Temp\tmpd6ddhr7t\signals.json (Total: 2)
+[2026-05-27 15:42:46] INFO [competitor_detector:output.py:110] SQLite Sync: Inserted 1 new and updated/replaced total 1 records in SQLite at: C:\Users\pihup\AppData\Local\Temp\tmp4a8wr3qx\signals.sqlite
+[2026-05-27 15:42:46] INFO [competitor_detector:output.py:110] SQLite Sync: Inserted 0 new and updated/replaced total 1 records in SQLite at: C:\Users\pihup\AppData\Local\Temp\tmp4a8wr3qx\signals.sqlite
+[2026-05-27 15:42:46] INFO [competitor_detector:parser.py:58] Filtering duplicate document from: http://reddit.com/1
+[2026-05-27 15:42:46] INFO [competitor_detector:parser.py:84] Normalized 2 documents (Deduplicated 1 documents).
+[2026-05-27 15:42:46] WARNING [competitor_detector:date_utils.py:20] Could not parse timestamp 'invalid-date-format' as ISO format: Invalid isoformat string: 'invalid-date-format'. Using current time.
+[2026-05-27 15:42:46] INFO [competitor_detector:parser.py:84] Normalized 1 documents (Deduplicated 0 documents).
+[2026-05-27 15:42:46] INFO [competitor_detector:scorer.py:117] Scored signal for HireVue on reddit: 90 points. Reason: Detected complaint tied to HireVue with high contextual confidence. Score Breakdown (90/100): Competitor Confidence=25/25, Complaint Strength=18/25, Distance Score=20/20, Source Quality=12/15, Recency=15/15.
+[2026-05-27 15:48:07] INFO [competitor_detector:classifier.py:34] Rejected false positive (claims/claims pattern): 'HireVue claims competitors are slow and expensive.'
+[2026-05-27 15:48:07] INFO [competitor_detector:classifier.py:96] Detected complaint match [speed]: 'slow' near 'Greenhouse' in sentence: 'Greenhouse is slow.' (distance: 1)
+[2026-05-27 15:48:07] INFO [competitor_detector:classifier.py:96] Detected complaint match [cost]: 'expensive' near 'Lever' in sentence: 'In contrast, Lever is expensive.' (distance: 1)
+[2026-05-27 15:48:07] INFO [competitor_detector:classifier.py:80] Ignored negated keyword 'slow' in sentence: 'We switched to Greenhouse and it is not slow.'
+[2026-05-27 15:48:07] INFO [competitor_detector:detector.py:60] Typo detected: 'hackerranc' matched to competitor 'HackerRank' (alias: 'hackerrank', dist: 1)
+[2026-05-27 15:48:07] INFO [competitor_detector:detector.py:60] Typo detected: 'leven' matched to competitor 'Lever' (alias: 'lever', dist: 1)
+[2026-05-27 15:48:07] INFO [competitor_detector:fetcher.py:84] G2 reviews require premium API or browser automation. Ingesting from high-fidelity mock cache.
+[2026-05-27 15:48:07] ERROR [competitor_detector:fetcher.py:72] Failed to fetch live Reddit posts: Network Down.
+[2026-05-27 15:48:07] INFO [competitor_detector:fetcher.py:74] Falling back to cached Reddit mock data.
+[2026-05-27 15:48:07] INFO [competitor_detector:fetcher.py:69] Successfully fetched 1 live posts from Reddit.
+[2026-05-27 15:48:07] INFO [competitor_detector:fetcher.py:45] Live mode disabled. Loading Reddit mock data.
+[2026-05-27 15:48:07] INFO [competitor_detector:fetcher.py:89] Trustpilot reviews require premium API or browser automation. Ingesting from high-fidelity mock cache.
+[2026-05-27 15:48:07] INFO [competitor_detector:fetcher.py:22] Fetching URL: http://test.com (Attempt 1/2)
+[2026-05-27 15:48:07] WARNING [competitor_detector:fetcher.py:26] HTTP Error 429 on attempt 1: Too Many Requests
+[2026-05-27 15:48:07] INFO [competitor_detector:fetcher.py:37] Sleeping 0.01s before retry...
+[2026-05-27 15:48:07] INFO [competitor_detector:fetcher.py:22] Fetching URL: http://test.com (Attempt 2/2)
+[2026-05-27 15:48:07] INFO [competitor_detector:output.py:50] Saved 1 new signals to JSON file at: C:\Users\pihup\AppData\Local\Temp\tmput14kv1u\signals.json (Total: 1)
+[2026-05-27 15:48:07] INFO [competitor_detector:output.py:50] Saved 0 new signals to JSON file at: C:\Users\pihup\AppData\Local\Temp\tmput14kv1u\signals.json (Total: 1)
+[2026-05-27 15:48:07] INFO [competitor_detector:output.py:50] Saved 1 new signals to JSON file at: C:\Users\pihup\AppData\Local\Temp\tmput14kv1u\signals.json (Total: 2)
+[2026-05-27 15:48:07] INFO [competitor_detector:output.py:110] SQLite Sync: Inserted 1 new and updated/replaced total 1 records in SQLite at: C:\Users\pihup\AppData\Local\Temp\tmpa2nm76vr\signals.sqlite
+[2026-05-27 15:48:07] INFO [competitor_detector:output.py:110] SQLite Sync: Inserted 0 new and updated/replaced total 1 records in SQLite at: C:\Users\pihup\AppData\Local\Temp\tmpa2nm76vr\signals.sqlite
+[2026-05-27 15:48:07] INFO [competitor_detector:parser.py:58] Filtering duplicate document from: http://reddit.com/1
+[2026-05-27 15:48:07] INFO [competitor_detector:parser.py:84] Normalized 2 documents (Deduplicated 1 documents).
+[2026-05-27 15:48:07] WARNING [competitor_detector:date_utils.py:20] Could not parse timestamp 'invalid-date-format' as ISO format: Invalid isoformat string: 'invalid-date-format'. Using current time.
+[2026-05-27 15:48:07] INFO [competitor_detector:parser.py:84] Normalized 1 documents (Deduplicated 0 documents).
+[2026-05-27 15:48:07] INFO [competitor_detector:scorer.py:117] Scored signal for HireVue on reddit: 90 points. Reason: Detected complaint tied to HireVue with high contextual confidence. Score Breakdown (90/100): Competitor Confidence=25/25, Complaint Strength=18/25, Distance Score=20/20, Source Quality=12/15, Recency=15/15.
+[2026-05-27 16:03:27] INFO [competitor_detector:classifier.py:116] Detected complaint match [speed]: 'slow' near 'HireVue' in sentence: 'The candidate experience is clunky and slow.' (distance: 12)
+[2026-05-27 16:03:27] INFO [competitor_detector:classifier.py:116] Detected complaint match [experience]: 'clunky' near 'HireVue' in sentence: 'The candidate experience is clunky and slow.' (distance: 12)
+[2026-05-27 16:03:27] INFO [competitor_detector:classifier.py:34] Rejected false positive (claims/claims pattern): 'HireVue claims competitors are slow and expensive.'
+[2026-05-27 16:03:27] INFO [competitor_detector:classifier.py:116] Detected complaint match [speed]: 'slow' near 'Greenhouse' in sentence: 'Greenhouse is slow.' (distance: 1)
+[2026-05-27 16:03:27] INFO [competitor_detector:classifier.py:116] Detected complaint match [cost]: 'expensive' near 'Greenhouse' in sentence: 'In contrast, Lever is expensive.' (distance: 12)
+[2026-05-27 16:03:27] INFO [competitor_detector:classifier.py:90] Ignored negated keyword 'slow' in sentence: 'We switched to Greenhouse and it is not slow.'
+[2026-05-27 16:03:27] INFO [competitor_detector:classifier.py:116] Detected complaint match [cost]: 'overpriced' near 'Greenhouse' in sentence: 'Although it is overpriced.' (distance: 12)
+[2026-05-27 16:03:27] INFO [competitor_detector:detector.py:60] Typo detected: 'hackerranc' matched to competitor 'HackerRank' (alias: 'hackerrank', dist: 1)
+[2026-05-27 16:03:27] INFO [competitor_detector:detector.py:60] Typo detected: 'leven' matched to competitor 'Lever' (alias: 'lever', dist: 1)
+[2026-05-27 16:03:27] INFO [competitor_detector:fetcher.py:88] G2 reviews require premium API or browser automation. Ingesting from high-fidelity mock cache.
+[2026-05-27 16:03:27] ERROR [competitor_detector:fetcher.py:76] Failed to fetch live Reddit posts: Network Down.
+[2026-05-27 16:03:27] INFO [competitor_detector:fetcher.py:78] Falling back to cached Reddit mock data.
+[2026-05-27 16:03:27] INFO [competitor_detector:fetcher.py:73] Successfully fetched 1 live posts from Reddit.
+[2026-05-27 16:03:27] INFO [competitor_detector:fetcher.py:49] Live mode disabled. Loading Reddit mock data.
+[2026-05-27 16:03:27] INFO [competitor_detector:fetcher.py:93] Trustpilot reviews require premium API or browser automation. Ingesting from high-fidelity mock cache.
+[2026-05-27 16:03:27] INFO [competitor_detector:fetcher.py:22] Fetching URL: http://test.com (Attempt 1/2)
+[2026-05-27 16:03:27] WARNING [competitor_detector:fetcher.py:26] HTTP Error 429 on attempt 1: Too Many Requests
+[2026-05-27 16:03:27] INFO [competitor_detector:fetcher.py:30] Rate limited (429). Sleeping 0.03s before retry...
+[2026-05-27 16:03:27] INFO [competitor_detector:fetcher.py:22] Fetching URL: http://test.com (Attempt 2/2)
+[2026-05-27 16:03:27] INFO [competitor_detector:output.py:50] Saved 1 new signals to JSON file at: C:\Users\pihup\AppData\Local\Temp\tmp1sw1d6qm\signals.json (Total: 1)
+[2026-05-27 16:03:27] INFO [competitor_detector:output.py:50] Saved 0 new signals to JSON file at: C:\Users\pihup\AppData\Local\Temp\tmp1sw1d6qm\signals.json (Total: 1)
+[2026-05-27 16:03:27] INFO [competitor_detector:output.py:50] Saved 1 new signals to JSON file at: C:\Users\pihup\AppData\Local\Temp\tmp1sw1d6qm\signals.json (Total: 2)
+[2026-05-27 16:03:27] INFO [competitor_detector:output.py:110] SQLite Sync: Inserted 1 new and updated/replaced total 1 records in SQLite at: C:\Users\pihup\AppData\Local\Temp\tmpkbsx8nei\signals.sqlite
+[2026-05-27 16:03:27] INFO [competitor_detector:output.py:110] SQLite Sync: Inserted 0 new and updated/replaced total 1 records in SQLite at: C:\Users\pihup\AppData\Local\Temp\tmpkbsx8nei\signals.sqlite
+[2026-05-27 16:03:27] INFO [competitor_detector:parser.py:58] Filtering duplicate document from: http://reddit.com/1
+[2026-05-27 16:03:27] INFO [competitor_detector:parser.py:84] Normalized 2 documents (Deduplicated 1 documents).
+[2026-05-27 16:03:27] WARNING [competitor_detector:date_utils.py:20] Could not parse timestamp 'invalid-date-format' as ISO format: Invalid isoformat string: 'invalid-date-format'. Using current time.
+[2026-05-27 16:03:27] INFO [competitor_detector:parser.py:84] Normalized 1 documents (Deduplicated 0 documents).
+[2026-05-27 16:03:27] INFO [competitor_detector:scorer.py:117] Scored signal for HireVue on reddit: 90 points. Reason: Detected complaint tied to HireVue with high contextual confidence. Score Breakdown (90/100): Competitor Confidence=25/25, Complaint Strength=18/25, Distance Score=20/20, Source Quality=12/15, Recency=15/15.
+[2026-05-27 16:05:02] INFO [competitor_detector:fetcher.py:49] Live mode disabled. Loading Reddit mock data.
+[2026-05-27 16:05:02] INFO [competitor_detector:parser.py:84] Normalized 3 documents (Deduplicated 0 documents).
+[2026-05-27 16:05:02] INFO [competitor_detector:detector.py:60] Typo detected: 'leven' matched to competitor 'Lever' (alias: 'lever', dist: 1)
+[2026-05-27 16:05:02] INFO [competitor_detector:classifier.py:116] Detected complaint match [speed]: 'slow' near 'leven' in sentence: 'Has anyone noticed Leven is really slow today?' (distance: 2)
+[2026-05-27 16:05:02] INFO [competitor_detector:scorer.py:117] Scored signal for Lever on reddit: 80 points. Reason: Detected complaint tied to Lever with high contextual confidence. Score Breakdown (80/100): Competitor Confidence=18/25, Complaint Strength=15/25, Distance Score=20/20, Source Quality=12/15, Recency=15/15.
+[2026-05-27 16:05:02] INFO [competitor_detector:classifier.py:90] Ignored negated keyword 'expensive' in sentence: 'We did some evaluations and HireVue is not expensive at all.'
+[2026-05-27 16:05:02] INFO [competitor_detector:classifier.py:116] Detected complaint match [cost]: 'overpriced' near 'hirevue' in sentence: 'It is very affordable compared to Greenhouse which we found overpriced.' (distance: 12)
+[2026-05-27 16:05:02] INFO [competitor_detector:classifier.py:90] Ignored negated keyword 'expensive' in sentence: 'We did some evaluations and HireVue is not expensive at all.'
+[2026-05-27 16:05:02] INFO [competitor_detector:scorer.py:117] Scored signal for Greenhouse on reddit: 82 points. Reason: Detected complaint tied to Greenhouse with high contextual confidence. Score Breakdown (82/100): Competitor Confidence=25/25, Complaint Strength=20/25, Distance Score=10/20, Source Quality=12/15, Recency=15/15.
+[2026-05-27 16:05:02] INFO [competitor_detector:output.py:50] Saved 2 new signals to JSON file at: sample_outputs\signals.json (Total: 2)
+[2026-05-27 16:05:02] INFO [competitor_detector:output.py:110] SQLite Sync: Inserted 2 new and updated/replaced total 2 records in SQLite at: sample_outputs\signals.sqlite
+[2026-05-27 16:06:30] INFO [competitor_detector:fetcher.py:49] Live mode disabled. Loading Reddit mock data.
+[2026-05-27 16:06:30] INFO [competitor_detector:fetcher.py:88] G2 reviews require premium API or browser automation. Ingesting from high-fidelity mock cache.
+[2026-05-27 16:06:30] INFO [competitor_detector:fetcher.py:93] Trustpilot reviews require premium API or browser automation. Ingesting from high-fidelity mock cache.
+[2026-05-27 16:06:30] INFO [competitor_detector:fetcher.py:99] Live mode disabled. Loading Blog mock data.
+[2026-05-27 16:06:30] INFO [competitor_detector:parser.py:84] Normalized 9 documents (Deduplicated 0 documents).
+[2026-05-27 16:06:30] INFO [competitor_detector:detector.py:60] Typo detected: 'leven' matched to competitor 'Lever' (alias: 'lever', dist: 1)
+[2026-05-27 16:06:30] INFO [competitor_detector:classifier.py:116] Detected complaint match [speed]: 'slow' near 'leven' in sentence: 'Has anyone noticed Leven is really slow today?' (distance: 2)
+[2026-05-27 16:06:30] INFO [competitor_detector:scorer.py:117] Scored signal for Lever on reddit: 80 points. Reason: Detected complaint tied to Lever with high contextual confidence. Score Breakdown (80/100): Competitor Confidence=18/25, Complaint Strength=15/25, Distance Score=20/20, Source Quality=12/15, Recency=15/15.
+[2026-05-27 16:06:30] INFO [competitor_detector:classifier.py:90] Ignored negated keyword 'expensive' in sentence: 'We did some evaluations and HireVue is not expensive at all.'
+[2026-05-27 16:06:30] INFO [competitor_detector:classifier.py:116] Detected complaint match [cost]: 'overpriced' near 'hirevue' in sentence: 'It is very affordable compared to Greenhouse which we found overpriced.' (distance: 12)
+[2026-05-27 16:06:30] INFO [competitor_detector:classifier.py:90] Ignored negated keyword 'expensive' in sentence: 'We did some evaluations and HireVue is not expensive at all.'
+[2026-05-27 16:06:30] INFO [competitor_detector:scorer.py:117] Scored signal for Greenhouse on reddit: 82 points. Reason: Detected complaint tied to Greenhouse with high contextual confidence. Score Breakdown (82/100): Competitor Confidence=25/25, Complaint Strength=20/25, Distance Score=10/20, Source Quality=12/15, Recency=15/15.
+[2026-05-27 16:06:30] INFO [competitor_detector:classifier.py:116] Detected complaint match [cost]: 'overpriced' near 'hackerrank' in sentence: 'HackerRank is great for automated assessments but it is overpriced.' (distance: 8)
+[2026-05-27 16:06:30] INFO [competitor_detector:classifier.py:116] Detected complaint match [cost]: 'expensive' near 'hackerrank' in sentence: 'We found the licensing costs to be very expensive compared to other tools.' (distance: 12)
+[2026-05-27 16:06:30] INFO [competitor_detector:scorer.py:117] Scored signal for HackerRank on g2: 90 points. Reason: Detected complaint tied to HackerRank with high contextual confidence. Score Breakdown (90/100): Competitor Confidence=25/25, Complaint Strength=20/25, Distance Score=15/20, Source Quality=15/15, Recency=15/15.
+[2026-05-27 16:06:30] INFO [competitor_detector:scorer.py:117] Scored signal for HackerRank on g2: 80 points. Reason: Detected complaint tied to HackerRank with high contextual confidence. Score Breakdown (80/100): Competitor Confidence=25/25, Complaint Strength=15/25, Distance Score=10/20, Source Quality=15/15, Recency=15/15.
+[2026-05-27 16:06:30] INFO [competitor_detector:classifier.py:90] Ignored negated keyword 'broken' in sentence: 'Greenhouse has been great for us, no downtime or broken links.'
+[2026-05-27 16:06:30] INFO [competitor_detector:classifier.py:90] Ignored negated keyword 'downtime' in sentence: 'Greenhouse has been great for us, no downtime or broken links.'
+[2026-05-27 16:06:30] INFO [competitor_detector:classifier.py:116] Detected complaint match [experience]: 'bad experience' near 'codility' in sentence: 'Our candidates had a bad experience with Codility.' (distance: 1)
+[2026-05-27 16:06:30] INFO [competitor_detector:classifier.py:116] Detected complaint match [reliability]: 'broken' near 'codility' in sentence: 'The system was broken during a live session, and the coding environment failed to load.' (distance: 12)
+[2026-05-27 16:06:30] INFO [competitor_detector:classifier.py:116] Detected complaint match [reliability]: 'failed' near 'codility' in sentence: 'The system was broken during a live session, and the coding environment failed to load.' (distance: 12)
+[2026-05-27 16:06:30] INFO [competitor_detector:scorer.py:117] Scored signal for Codility on trustpilot: 90 points. Reason: Detected complaint tied to Codility with high contextual confidence. Score Breakdown (90/100): Competitor Confidence=25/25, Complaint Strength=15/25, Distance Score=20/20, Source Quality=15/15, Recency=15/15.
+[2026-05-27 16:06:30] INFO [competitor_detector:scorer.py:117] Scored signal for Codility on trustpilot: 85 points. Reason: Detected complaint tied to Codility with high contextual confidence. Score Breakdown (85/100): Competitor Confidence=25/25, Complaint Strength=20/25, Distance Score=10/20, Source Quality=15/15, Recency=15/15.
+[2026-05-27 16:06:30] INFO [competitor_detector:scorer.py:117] Scored signal for Codility on trustpilot: 85 points. Reason: Detected complaint tied to Codility with high contextual confidence. Score Breakdown (85/100): Competitor Confidence=25/25, Complaint Strength=20/25, Distance Score=10/20, Source Quality=15/15, Recency=15/15.
+[2026-05-27 16:06:30] INFO [competitor_detector:classifier.py:116] Detected complaint match [fairness]: 'bias' near 'codility' in sentence: 'Codility coding tasks are sometimes a bit unfair because they check for niche optimization rather than real-world engineering, leading to bias against self-taught devs.' (distance: 20)
+[2026-05-27 16:06:30] INFO [competitor_detector:classifier.py:116] Detected complaint match [fairness]: 'unfair' near 'codility' in sentence: 'Codility coding tasks are sometimes a bit unfair because they check for niche optimization rather than real-world engineering, leading to bias against self-taught devs.' (distance: 6)
+[2026-05-27 16:06:30] INFO [competitor_detector:scorer.py:117] Scored signal for Codility on trustpilot: 80 points. Reason: Detected complaint tied to Codility with high contextual confidence. Score Breakdown (80/100): Competitor Confidence=25/25, Complaint Strength=20/25, Distance Score=5/20, Source Quality=15/15, Recency=15/15.
+[2026-05-27 16:06:30] INFO [competitor_detector:scorer.py:117] Scored signal for Codility on trustpilot: 90 points. Reason: Detected complaint tied to Codility with high contextual confidence. Score Breakdown (90/100): Competitor Confidence=25/25, Complaint Strength=20/25, Distance Score=15/20, Source Quality=15/15, Recency=15/15.
+[2026-05-27 16:06:30] INFO [competitor_detector:classifier.py:116] Detected complaint match [experience]: 'poor ux' near 'greenhouse' in sentence: 'Greenhouse has a very poor UX and it is frustrating to navigate.' (distance: 3)
+[2026-05-27 16:06:30] INFO [competitor_detector:classifier.py:116] Detected complaint match [experience]: 'frustrating' near 'greenhouse' in sentence: 'Greenhouse has a very poor UX and it is frustrating to navigate.' (distance: 8)
+[2026-05-27 16:06:30] INFO [competitor_detector:classifier.py:116] Detected complaint match [speed]: 'takes too long' near 'greenhouse' in sentence: 'We noticed candidate dropoff at the application stage because the application form takes too long.' (distance: 12)
+[2026-05-27 16:06:30] INFO [competitor_detector:classifier.py:116] Detected complaint match [experience]: 'candidate dropoff' near 'greenhouse' in sentence: 'We noticed candidate dropoff at the application stage because the application form takes too long.' (distance: 12)
+[2026-05-27 16:06:30] INFO [competitor_detector:scorer.py:117] Scored signal for Greenhouse on blog: 75 points. Reason: Detected complaint tied to Greenhouse with moderate contextual confidence. Score Breakdown (75/100): Competitor Confidence=25/25, Complaint Strength=15/25, Distance Score=10/20, Source Quality=10/15, Recency=15/15.
+[2026-05-27 16:06:30] INFO [competitor_detector:scorer.py:117] Scored signal for Greenhouse on blog: 85 points. Reason: Detected complaint tied to Greenhouse with high contextual confidence. Score Breakdown (85/100): Competitor Confidence=25/25, Complaint Strength=15/25, Distance Score=20/20, Source Quality=10/15, Recency=15/15.
+[2026-05-27 16:06:30] INFO [competitor_detector:scorer.py:117] Scored signal for Greenhouse on blog: 80 points. Reason: Detected complaint tied to Greenhouse with high contextual confidence. Score Breakdown (80/100): Competitor Confidence=25/25, Complaint Strength=15/25, Distance Score=15/20, Source Quality=10/15, Recency=15/15.
+[2026-05-27 16:06:30] INFO [competitor_detector:scorer.py:117] Scored signal for Greenhouse on blog: 75 points. Reason: Detected complaint tied to Greenhouse with moderate contextual confidence. Score Breakdown (75/100): Competitor Confidence=25/25, Complaint Strength=15/25, Distance Score=10/20, Source Quality=10/15, Recency=15/15.
+[2026-05-27 16:06:30] INFO [competitor_detector:classifier.py:34] Rejected false positive (claims/claims pattern): 'I heard Hackerrank claims competitors are expensive and buggy, but their own platform is quite stable.'
+[2026-05-27 16:06:30] INFO [competitor_detector:output.py:50] Saved 6 new signals to JSON file at: sample_outputs\signals.json (Total: 8)
+[2026-05-27 16:06:30] INFO [competitor_detector:output.py:110] SQLite Sync: Inserted 6 new and updated/replaced total 13 records in SQLite at: sample_outputs\signals.sqlite

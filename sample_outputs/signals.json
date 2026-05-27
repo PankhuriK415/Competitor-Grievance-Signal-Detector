@@ -1,0 +1,106 @@
+[
+  {
+    "company": "HiringNow LLC",
+    "signal_type": "competitor_grievance",
+    "source_url": "https://www.reddit.com/r/recruiting/comments/9999/lever_sluggish/",
+    "matched_keywords": [
+      "Lever",
+      "slow"
+    ],
+    "pain_point": "speed",
+    "signal_score": 80,
+    "detected_at": "2026-05-27T10:35:02.138210+00:00",
+    "reason": "Detected complaint tied to Lever with high contextual confidence. Score Breakdown (80/100): Competitor Confidence=18/25, Complaint Strength=15/25, Distance Score=20/20, Source Quality=12/15, Recency=15/15."
+  },
+  {
+    "company": "FinanceSystems",
+    "signal_type": "competitor_grievance",
+    "source_url": "https://www.reddit.com/r/recruiting/comments/8888/cost_comparisons/",
+    "matched_keywords": [
+      "Greenhouse",
+      "overpriced"
+    ],
+    "pain_point": "cost",
+    "signal_score": 82,
+    "detected_at": "2026-05-27T10:35:02.138784+00:00",
+    "reason": "Detected complaint tied to Greenhouse with high contextual confidence. Score Breakdown (82/100): Competitor Confidence=25/25, Complaint Strength=20/25, Distance Score=10/20, Source Quality=12/15, Recency=15/15."
+  },
+  {
+    "company": "TechCorp Inc.",
+    "signal_type": "competitor_grievance",
+    "source_url": "https://www.g2.com/products/hackerrank/reviews/55555",
+    "matched_keywords": [
+      "HackerRank",
+      "overpriced"
+    ],
+    "pain_point": "cost",
+    "signal_score": 90,
+    "detected_at": "2026-05-27T10:36:30.864413+00:00",
+    "reason": "Detected complaint tied to HackerRank with high contextual confidence. Score Breakdown (90/100): Competitor Confidence=25/25, Complaint Strength=20/25, Distance Score=15/20, Source Quality=15/15, Recency=15/15."
+  },
+  {
+    "company": "DesignAgency",
+    "signal_type": "competitor_grievance",
+    "source_url": "https://www.trustpilot.com/reviews/codility/6666",
+    "matched_keywords": [
+      "Codility",
+      "bad experience"
+    ],
+    "pain_point": "experience",
+    "signal_score": 90,
+    "detected_at": "2026-05-27T10:36:30.865135+00:00",
+    "reason": "Detected complaint tied to Codility with high contextual confidence. Score Breakdown (90/100): Competitor Confidence=25/25, Complaint Strength=15/25, Distance Score=20/20, Source Quality=15/15, Recency=15/15."
+  },
+  {
+    "company": "DesignAgency",
+    "signal_type": "competitor_grievance",
+    "source_url": "https://www.trustpilot.com/reviews/codility/6666",
+    "matched_keywords": [
+      "Codility",
+      "broken"
+    ],
+    "pain_point": "reliability",
+    "signal_score": 85,
+    "detected_at": "2026-05-27T10:36:30.865168+00:00",
+    "reason": "Detected complaint tied to Codility with high contextual confidence. Score Breakdown (85/100): Competitor Confidence=25/25, Complaint Strength=20/25, Distance Score=10/20, Source Quality=15/15, Recency=15/15."
+  },
+  {
+    "company": "Freelancer",
+    "signal_type": "competitor_grievance",
+    "source_url": "https://www.trustpilot.com/reviews/codility/1212",
+    "matched_keywords": [
+      "Codility",
+      "bias"
+    ],
+    "pain_point": "fairness",
+    "signal_score": 80,
+    "detected_at": "2026-05-27T10:36:30.865565+00:00",
+    "reason": "Detected complaint tied to Codility with high contextual confidence. Score Breakdown (80/100): Competitor Confidence=25/25, Complaint Strength=20/25, Distance Score=5/20, Source Quality=15/15, Recency=15/15."
+  },
+  {
+    "company": "GrowthStartup",
+    "signal_type": "competitor_grievance",
+    "source_url": "https://hrtechblog.com/top-ats-systems/#comment-777",
+    "matched_keywords": [
+      "Greenhouse",
+      "takes too long"
+    ],
+    "pain_point": "speed",
+    "signal_score": 75,
+    "detected_at": "2026-05-27T10:36:30.866162+00:00",
+    "reason": "Detected complaint tied to Greenhouse with moderate contextual confidence. Score Breakdown (75/100): Competitor Confidence=25/25, Complaint Strength=15/25, Distance Score=10/20, Source Quality=10/15, Recency=15/15."
+  },
+  {
+    "company": "GrowthStartup",
+    "signal_type": "competitor_grievance",
+    "source_url": "https://hrtechblog.com/top-ats-systems/#comment-777",
+    "matched_keywords": [
+      "Greenhouse",
+      "poor ux"
+    ],
+    "pain_point": "experience",
+    "signal_score": 85,
+    "detected_at": "2026-05-27T10:36:30.866194+00:00",
+    "reason": "Detected complaint tied to Greenhouse with high contextual confidence. Score Breakdown (85/100): Competitor Confidence=25/25, Complaint Strength=15/25, Distance Score=20/20, Source Quality=10/15, Recency=15/15."
+  }
+]
